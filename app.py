@@ -11,7 +11,7 @@ async def root():
 @app.get('/health')
 async def get_health():
     """Test dockstring get_health func"""
-    return {"status": "ok"}
+    return {"status": "update health endpoint"}
 
 @app.get('/version')
 async def test_stash():
