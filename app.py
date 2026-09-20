@@ -15,7 +15,7 @@ async def get_health():
 
 @app.get('/version')
 async def test_stash():
-    eturn {"something": "from main and feature"}
+    return {"something": "from main and feature"}
 
 @app.get('/users')
 async def get_all_users():
