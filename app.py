@@ -17,3 +17,7 @@ async def get_health():
 async def test_stash():
     return {"something": "from main"}
 
+@app.get('/users')
+async def get_all_users():
+    return {"message": "get all users"}
+
