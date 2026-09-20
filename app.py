@@ -15,5 +15,5 @@ async def get_health():
 
 @app.get('/version')
 async def test_stash():
-    return {"something": "ok"}
+    return {"something": "from main"}
 
