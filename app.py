@@ -21,3 +21,7 @@ async def test_stash():
 async def get_all_users():
     return {"message": "get all users"}
 
+@app.post('/users/{id}')
+async def update_user_by_id(id: int):
+    return {"message": "message about update users"}
+
