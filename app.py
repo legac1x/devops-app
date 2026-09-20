@@ -5,10 +5,12 @@ app = FastAPI()
 
 @app.get('/')
 async def root():
+    """Test dockstring root function """
     return {"message": "hello, devops"}
 
 @app.get('/health')
 async def get_health():
+    """Test dockstring get_health func"""
     return {"status": "ok"}
 
 @app.get('/version')
