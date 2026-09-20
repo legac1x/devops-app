@@ -10,3 +10,8 @@ async def root():
 @app.get('/health')
 async def get_health():
     return {"status": "ok"}
+
+@app.get('/version')
+async def test_stash():
+    return {"something": "ok"}
+
