@@ -25,3 +25,4 @@ async def get_all_users():
 async def update_user_by_id(id: int):
     return {"message": "message about update users"}
 
+# test protection
