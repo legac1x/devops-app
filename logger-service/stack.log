@@ -1,0 +1,930 @@
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+dec8c3d3f971   nginx                 "/docker-entrypoint.…"   12 minutes ago   Up 11 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+e1be145452b5   git-practice-app      "uvicorn app:app --h…"   12 minutes ago   Up 12 minutes (healthy)                                         git-practice-app-1
+cfa2ba00fb5f   postgres:16           "docker-entrypoint.s…"   12 minutes ago   Up 12 minutes (healthy)   5432/tcp                              git-practice-db-1
+4736bcd844c8   redis:7               "docker-entrypoint.s…"   12 minutes ago   Up 12 minutes (healthy)   6379/tcp                              git-practice-cache-1
+6c6a80a508e0   git-practice-logger   "/entrypoint.sh"         12 minutes ago   Up 12 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 405 Method Not Allowed
+Server: nginx/1.31.6
+Date: Thu, 15 Oct 2026 03:26:02 GMT
+Content-Type: application/json
+Content-Length: 31
+Connection: keep-alive
+allow: GET
+
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+dec8c3d3f971   nginx                 "/docker-entrypoint.…"   14 minutes ago   Up 13 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+e1be145452b5   git-practice-app      "uvicorn app:app --h…"   14 minutes ago   Up 14 minutes (healthy)                                         git-practice-app-1
+cfa2ba00fb5f   postgres:16           "docker-entrypoint.s…"   14 minutes ago   Up 14 minutes (healthy)   5432/tcp                              git-practice-db-1
+4736bcd844c8   redis:7               "docker-entrypoint.s…"   14 minutes ago   Up 14 minutes (healthy)   6379/tcp                              git-practice-cache-1
+6c6a80a508e0   git-practice-logger   "/entrypoint.sh"         14 minutes ago   Up 14 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 405 Method Not Allowed
+Server: nginx/1.31.6
+Date: Thu, 15 Oct 2026 03:28:01 GMT
+Content-Type: application/json
+Content-Length: 31
+Connection: keep-alive
+allow: GET
+
+CONTAINER ID   IMAGE                 COMMAND                  CREATED              STATUS                        PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   About a minute ago   Up 51 seconds                 0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   About a minute ago   Up 57 seconds (healthy)                                             git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   About a minute ago   Up About a minute (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   About a minute ago   Up About a minute (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         About a minute ago   Up About a minute (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4898      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                   PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   3 minutes ago   Up 2 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   3 minutes ago   Up 2 minutes (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   3 minutes ago   Up 3 minutes (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   3 minutes ago   Up 3 minutes (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         3 minutes ago   Up 3 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4387      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4464      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4393      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5121      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4929      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   6134      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5077      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4736      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4482      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5274      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5305      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4526      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5490      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4466      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5016      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4398      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   36 hours ago   Up 36 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   36 hours ago   Up 36 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   36 hours ago   Up 36 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         36 hours ago   Up 36 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5018      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4786      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4524      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5140      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4581      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   9759      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10073      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10094      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  11520      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10273      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4473      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4793      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   7515      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5159      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   6097      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5391      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4736      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5043      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4288      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4973      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5510      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5035      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5378      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4342      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4990      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5221      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4983      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4952      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4916      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4834      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED        STATUS                  PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   37 hours ago   Up 37 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   37 hours ago   Up 37 hours (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   37 hours ago   Up 37 hours (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         37 hours ago   Up 37 hours (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4437      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  13227      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  12185      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10909      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   9881      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10309      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10121      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  11755      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  11691      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  12244      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  10940      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0  12776      0 --:--:-- --:--:-- --:--:-- 15000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5478      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5088      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5136      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4575      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5401      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   3978      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4900      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS                PORTS                                 NAMES
+6d0ccdbbe4bd   nginx                 "/docker-entrypoint.…"   2 days ago   Up 2 days             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+d09fa9b20d7b   git-practice-app      "uvicorn app:app --h…"   2 days ago   Up 2 days (healthy)                                         git-practice-app-1
+b11981cf3834   postgres:16           "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   5432/tcp                              git-practice-db-1
+8e81db8ff48b   redis:7               "docker-entrypoint.s…"   2 days ago   Up 2 days (healthy)   6379/tcp                              git-practice-cache-1
+c0ddb385ee61   git-practice-logger   "/entrypoint.sh"         2 days ago   Up 2 days (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4694      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                            PORTS      NAMES
+35cc24452b38   git-practice-app      "uvicorn app:app --h…"   14 seconds ago   Up 8 seconds (health: starting)              git-practice-app-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   14 seconds ago   Up 14 seconds (healthy)           5432/tcp   git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   14 seconds ago   Up 14 seconds (healthy)           6379/tcp   git-practice-cache-1
+9a3c3f5535ba   git-practice-logger   "/entrypoint.sh"         14 seconds ago   Up 14 seconds (healthy)                      git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                     PORTS      NAMES
+35cc24452b38   git-practice-app      "uvicorn app:app --h…"   2 minutes ago   Up 2 minutes (unhealthy)              git-practice-app-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes (healthy)     5432/tcp   git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes (healthy)     6379/tcp   git-practice-cache-1
+9a3c3f5535ba   git-practice-logger   "/entrypoint.sh"         2 minutes ago   Up 2 minutes (healthy)                git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                     PORTS      NAMES
+35cc24452b38   git-practice-app      "uvicorn app:app --h…"   4 minutes ago   Up 4 minutes (unhealthy)              git-practice-app-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   4 minutes ago   Up 4 minutes (healthy)     5432/tcp   git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   4 minutes ago   Up 4 minutes (healthy)     6379/tcp   git-practice-cache-1
+9a3c3f5535ba   git-practice-logger   "/entrypoint.sh"         4 minutes ago   Up 4 minutes (healthy)                git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                     PORTS      NAMES
+35cc24452b38   git-practice-app      "uvicorn app:app --h…"   6 minutes ago   Up 6 minutes (unhealthy)              git-practice-app-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes (healthy)     5432/tcp   git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes (healthy)     6379/tcp   git-practice-cache-1
+9a3c3f5535ba   git-practice-logger   "/entrypoint.sh"         6 minutes ago   Up 6 minutes (healthy)                git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                     PORTS      NAMES
+35cc24452b38   git-practice-app      "uvicorn app:app --h…"   8 minutes ago   Up 8 minutes (unhealthy)              git-practice-app-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes (healthy)     5432/tcp   git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes (healthy)     6379/tcp   git-practice-cache-1
+9a3c3f5535ba   git-practice-logger   "/entrypoint.sh"         8 minutes ago   Up 8 minutes (healthy)                git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                      PORTS      NAMES
+35cc24452b38   git-practice-app      "uvicorn app:app --h…"   10 minutes ago   Up 10 minutes (unhealthy)              git-practice-app-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   10 minutes ago   Up 10 minutes (healthy)     5432/tcp   git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   10 minutes ago   Up 10 minutes (healthy)     6379/tcp   git-practice-cache-1
+9a3c3f5535ba   git-practice-logger   "/entrypoint.sh"         10 minutes ago   Up 10 minutes (healthy)                git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED              STATUS                        PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         About a minute ago   Up About a minute (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   About a minute ago   Up About a minute (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   12 minutes ago       Up About a minute             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   12 minutes ago       Up 12 minutes (healthy)       5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   12 minutes ago       Up 12 minutes (healthy)       6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4542      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         3 minutes ago    Up 3 minutes (healthy)                                          git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   3 minutes ago    Up 3 minutes (healthy)                                          git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   14 minutes ago   Up 3 minutes              0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   14 minutes ago   Up 14 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   14 minutes ago   Up 14 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4192      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         5 minutes ago    Up 5 minutes (healthy)                                          git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   5 minutes ago    Up 5 minutes (healthy)                                          git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   16 minutes ago   Up 5 minutes              0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   16 minutes ago   Up 16 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   16 minutes ago   Up 16 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5112      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         7 minutes ago    Up 7 minutes (healthy)                                          git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   7 minutes ago    Up 7 minutes (healthy)                                          git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   18 minutes ago   Up 7 minutes              0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5366      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         9 minutes ago    Up 9 minutes (healthy)                                          git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   9 minutes ago    Up 9 minutes (healthy)                                          git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   20 minutes ago   Up 9 minutes              0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   20 minutes ago   Up 20 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   20 minutes ago   Up 20 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4680      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         11 minutes ago   Up 11 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   11 minutes ago   Up 11 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   22 minutes ago   Up 11 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   22 minutes ago   Up 22 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   22 minutes ago   Up 22 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5253      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         13 minutes ago   Up 13 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   13 minutes ago   Up 13 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   24 minutes ago   Up 13 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   24 minutes ago   Up 24 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   24 minutes ago   Up 24 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4859      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         15 minutes ago   Up 15 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   15 minutes ago   Up 15 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   26 minutes ago   Up 15 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   26 minutes ago   Up 26 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   26 minutes ago   Up 26 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4827      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         17 minutes ago   Up 17 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   17 minutes ago   Up 17 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   28 minutes ago   Up 17 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   28 minutes ago   Up 28 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   28 minutes ago   Up 28 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4889      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         19 minutes ago   Up 19 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   19 minutes ago   Up 19 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   30 minutes ago   Up 19 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   30 minutes ago   Up 30 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   30 minutes ago   Up 30 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5010      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         21 minutes ago   Up 21 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   21 minutes ago   Up 21 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   32 minutes ago   Up 21 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   32 minutes ago   Up 32 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   32 minutes ago   Up 32 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5165      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         23 minutes ago   Up 23 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   23 minutes ago   Up 23 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   34 minutes ago   Up 23 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   34 minutes ago   Up 34 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   34 minutes ago   Up 34 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4615      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         25 minutes ago   Up 25 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   25 minutes ago   Up 25 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   36 minutes ago   Up 25 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   36 minutes ago   Up 36 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   36 minutes ago   Up 36 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5374      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         27 minutes ago   Up 27 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   27 minutes ago   Up 27 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   38 minutes ago   Up 27 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   38 minutes ago   Up 38 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   38 minutes ago   Up 38 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5399      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         29 minutes ago   Up 29 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   29 minutes ago   Up 29 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   40 minutes ago   Up 29 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   40 minutes ago   Up 40 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   40 minutes ago   Up 40 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4804      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         31 minutes ago   Up 31 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   31 minutes ago   Up 31 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   42 minutes ago   Up 31 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   42 minutes ago   Up 42 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   42 minutes ago   Up 42 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4868      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         33 minutes ago   Up 33 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   33 minutes ago   Up 33 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   44 minutes ago   Up 33 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   44 minutes ago   Up 44 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   44 minutes ago   Up 44 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4413      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+1d10e55ab06b   git-practice-logger   "/entrypoint.sh"         35 minutes ago   Up 35 minutes (healthy)                                         git-practice-logger-1
+e6939ea72f00   git-practice-app      "uvicorn app:app --h…"   35 minutes ago   Up 35 minutes (healthy)                                         git-practice-app-1
+ea89bac26d18   nginx                 "/docker-entrypoint.…"   46 minutes ago   Up 35 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+999b2f62726b   postgres:16           "docker-entrypoint.s…"   46 minutes ago   Up 46 minutes (healthy)   5432/tcp                              git-practice-db-1
+a4b3e63fd0db   redis:7               "docker-entrypoint.s…"   46 minutes ago   Up 46 minutes (healthy)   6379/tcp                              git-practice-cache-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4482      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+01c38b6de5e3   nginx                 "/docker-entrypoint.…"   46 seconds ago   Up 34 seconds             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+ad77133c8ddf   git-practice-app      "uvicorn app:app --h…"   46 seconds ago   Up 40 seconds (healthy)                                         git-practice-app-1
+0617f5c9f6cf   postgres:16           "docker-entrypoint.s…"   46 seconds ago   Up 46 seconds (healthy)   5432/tcp                              git-practice-db-1
+3f489d1e7612   redis:7               "docker-entrypoint.s…"   46 seconds ago   Up 46 seconds (healthy)   6379/tcp                              git-practice-cache-1
+1591d618d339   git-practice-logger   "/entrypoint.sh"         46 seconds ago   Up 46 seconds (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4317      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                   PORTS                                 NAMES
+01c38b6de5e3   nginx                 "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+ad77133c8ddf   git-practice-app      "uvicorn app:app --h…"   2 minutes ago   Up 2 minutes (healthy)                                         git-practice-app-1
+0617f5c9f6cf   postgres:16           "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes (healthy)   5432/tcp                              git-practice-db-1
+3f489d1e7612   redis:7               "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes (healthy)   6379/tcp                              git-practice-cache-1
+1591d618d339   git-practice-logger   "/entrypoint.sh"         2 minutes ago   Up 2 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5140      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                            PORTS      NAMES
+23fd359d4e7a   postgres:16           "docker-entrypoint.s…"   5 seconds ago   Up 5 seconds (health: starting)   5432/tcp   git-practice-db-1
+76c199750ec6   redis:7               "docker-entrypoint.s…"   5 seconds ago   Up 5 seconds (healthy)            6379/tcp   git-practice-cache-1
+5797f6c30229   git-practice-logger   "/entrypoint.sh"         5 seconds ago   Up 5 seconds (health: starting)              git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 0 ms: Couldn't connect to server
+CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS                        PORTS                                 NAMES
+a18ce6eb9adc   nginx                 "/docker-entrypoint.…"   2 minutes ago   Up About a minute             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+3bf8c3cfdef6   git-practice-app      "uvicorn app:app --h…"   2 minutes ago   Up About a minute (healthy)                                         git-practice-app-1
+23fd359d4e7a   postgres:16           "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes (healthy)        5432/tcp                              git-practice-db-1
+76c199750ec6   redis:7               "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes (healthy)        6379/tcp                              git-practice-cache-1
+5797f6c30229   git-practice-logger   "/entrypoint.sh"         2 minutes ago   Up 2 minutes (healthy)                                              git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   5694      0 --:--:-- --:--:-- --:--:--  7500
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+a18ce6eb9adc   nginx                 "/docker-entrypoint.…"   12 minutes ago   Up 11 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+3bf8c3cfdef6   git-practice-app      "uvicorn app:app --h…"   12 minutes ago   Up 11 minutes (healthy)                                         git-practice-app-1
+23fd359d4e7a   postgres:16           "docker-entrypoint.s…"   12 minutes ago   Up 12 minutes (healthy)   5432/tcp                              git-practice-db-1
+76c199750ec6   redis:7               "docker-entrypoint.s…"   12 minutes ago   Up 12 minutes (healthy)   6379/tcp                              git-practice-cache-1
+5797f6c30229   git-practice-logger   "/entrypoint.sh"         12 minutes ago   Up 12 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4300      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+a18ce6eb9adc   nginx                 "/docker-entrypoint.…"   14 minutes ago   Up 13 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+3bf8c3cfdef6   git-practice-app      "uvicorn app:app --h…"   14 minutes ago   Up 13 minutes (healthy)                                         git-practice-app-1
+23fd359d4e7a   postgres:16           "docker-entrypoint.s…"   14 minutes ago   Up 14 minutes (healthy)   5432/tcp                              git-practice-db-1
+76c199750ec6   redis:7               "docker-entrypoint.s…"   14 minutes ago   Up 14 minutes (healthy)   6379/tcp                              git-practice-cache-1
+5797f6c30229   git-practice-logger   "/entrypoint.sh"         14 minutes ago   Up 14 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4385      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+a18ce6eb9adc   nginx                 "/docker-entrypoint.…"   16 minutes ago   Up 15 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+3bf8c3cfdef6   git-practice-app      "uvicorn app:app --h…"   16 minutes ago   Up 15 minutes (healthy)                                         git-practice-app-1
+23fd359d4e7a   postgres:16           "docker-entrypoint.s…"   16 minutes ago   Up 16 minutes (healthy)   5432/tcp                              git-practice-db-1
+76c199750ec6   redis:7               "docker-entrypoint.s…"   16 minutes ago   Up 16 minutes (healthy)   6379/tcp                              git-practice-cache-1
+5797f6c30229   git-practice-logger   "/entrypoint.sh"         16 minutes ago   Up 16 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4441      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                    PORTS                                 NAMES
+a18ce6eb9adc   nginx                 "/docker-entrypoint.…"   18 minutes ago   Up 17 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp   git-practice-web-1
+3bf8c3cfdef6   git-practice-app      "uvicorn app:app --h…"   18 minutes ago   Up 17 minutes (healthy)                                         git-practice-app-1
+23fd359d4e7a   postgres:16           "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes (healthy)   5432/tcp                              git-practice-db-1
+76c199750ec6   redis:7               "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes (healthy)   6379/tcp                              git-practice-cache-1
+5797f6c30229   git-practice-logger   "/entrypoint.sh"         18 minutes ago   Up 18 minutes (healthy)                                         git-practice-logger-1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    15  100    15    0     0   4100      0 --:--:-- --:--:-- --:--:--  5000
+{"status":"ok"}

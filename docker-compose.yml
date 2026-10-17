@@ -1,4 +1,11 @@
 services:
+    logger:
+      build: ./logger-service
+      healthcheck:
+        test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+        interval: 5s 
+        timeout: 3s
+        retries: 5
     web:
         image: nginx
         volumes:
@@ -8,10 +15,10 @@ services:
         depends_on:
             app:
                 condition: service_healthy
+            logger:
+                condition: service_healthy
     app:
         build: .
-        ports: 
-            - "8000:8000"
         environment:
             - DATABASE_URL=postgresql://user:password@db:5432/appdb
             - REDIS_URL=redis://cache:6379
