@@ -5,4 +5,3 @@ __pycache__/
 .gitignore
 .dockerignore
 .env
-Dockerfile
