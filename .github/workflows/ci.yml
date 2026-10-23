@@ -1,15 +1,19 @@
-name: CI 
+name: CI ruff
 
 on: [push, pull_request]
 
 jobs:
   test: 
     runs-on: ubuntu-latest
+    strategy:
+      matrix: 
+        python-version: ['3.12', '3.11']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
       - run: pip install -r requirements.txt
       - run: pytest
   docker:
@@ -26,4 +30,11 @@ jobs:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-app:latest
-
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: astral-sh/ruff-action@v4.1.0
+        with: 
+          version: "0.4.4"
+      - run: ruff check --fix
+      - run: ruff format 
