@@ -7,9 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix: 
-        python-version:
-          - "pypy3.11"
-          - "pypy3.12"
+        python-version: ['3.12', '3.11']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
