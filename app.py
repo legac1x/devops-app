@@ -28,3 +28,6 @@ async def get_all_users():
 @app.post("/users/{id}")
 async def update_user_by_id(id: int):
     return {"message": "message about update users"}
+
+
+import os
