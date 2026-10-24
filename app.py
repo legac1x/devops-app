@@ -1,9 +1,13 @@
 from fastapi import FastAPI
+
 app = FastAPI()
+
+
 @app.get("/")
 async def root():
     """Test dockstring root function"""
     return {"message": "hello, devops"}
+
 
 @app.get("/health")
 async def get_health():
@@ -24,3 +28,6 @@ async def get_all_users():
 @app.post("/users/{id}")
 async def update_user_by_id(id: int):
     return {"message": "message about update users"}
+
+
+import os
